@@ -1,0 +1,50 @@
+.header {
+    padding-top: 6.6rem;
+    padding-bottom: 6.6rem;
+    
+    .header-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .site-logo {
+        color: rgb(0, 0, 0);
+        font-family: Poppins;
+        font-size: 2.2rem;
+        font-weight: 400;
+        line-height: 3.3rem;
+        letter-spacing: 0%;
+        text-align: left;
+    }
+    .navbar {
+        &__list {
+            display: flex;
+            align-items: center;
+            gap: 5.7rem;
+        }
+        &__item {
+            position: relative;
+        }
+        &__item::before{
+            content: "";
+            position: absolute;
+            width: 0%;
+            height: 3px;
+            background-color: #000;
+            transition: all 0.4s linear;
+            bottom: 0;
+        }
+        &__item:hover::before{
+            width: 100%;
+        }
+        &__link {
+            color: rgb(0, 0, 0);
+            font-family: Poppins;
+            font-size: 2.2rem;
+            font-weight: 400;
+            line-height: 3.3rem;
+            text-align: left;
+        }
+    }
+}

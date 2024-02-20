@@ -1,0 +1,46 @@
+.project {
+    padding-top: 7.4rem;
+    padding-bottom: 10.9rem;
+}
+.project-container {
+    display: flex;
+}
+.finished {
+    width: 100%;
+    max-width: 35.4rem;
+    padding: 3.1rem 0 3.1rem 5rem;
+    margin-right: 7.7rem;
+    background: #2A2A2A;
+}
+.finished__title {
+    color: rgb(255, 255, 255);
+    font-size: 3.4rem;
+    font-weight: 500;
+    line-height: 5.1rem;
+}
+.finished__desc {
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.7rem;
+}
+.reviewed {
+    padding: 3.1rem 0 3.1rem 5rem;
+    width: 100%;
+    max-width: 53.1rem;
+    margin-right: 12.9rem;
+    background: #2A2A2A;
+
+}
+.reviewed__title {
+    color: rgb(255, 255, 255);
+    font-size: 3.4rem;
+    font-weight: 500;
+    line-height: 5.1rem;
+}
+.reviewed__desc {
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.7rem;
+}
