@@ -5,18 +5,24 @@
         justify-content: space-between;
     }
     &__img {
-        position: relative;
+        // position: relative;
         width: 100%;
-        max-width: 50.8rem;
+        max-width: 533px;
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
     }
     .img-top {
-        position: absolute;
-        left: 0;
+        
+        // position: absolute;
+        
     }
     .img-bottom {
-        position: absolute;
-        right: 0;
-        bottom: -5.1rem;
+        margin-left: auto;
+
+        // position: absolute;
+        
+        // bottom: -5.1rem;
     }
     &__text {
     }
