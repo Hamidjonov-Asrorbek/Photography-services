@@ -602,6 +602,32 @@ a {
   text-align: left;
 }
 
+.article-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.article__title {
+  font-family: Poppins;
+  font-size: 68px;
+  font-weight: 700;
+  line-height: 102px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.article__desc {
+  width: 100%;
+  max-width: 521px;
+  font-family: Poppins;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
 .btn {
   width: -moz-fit-content;
   width: fit-content;
@@ -637,4 +663,11 @@ a {
   font-size: 2.4rem;
   font-weight: 500;
   line-height: 3.6rem;
+}
+
+.article-btn {
+  padding: 20px 40px;
+  width: 100%;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
 }/*# sourceMappingURL=main.css.map */
