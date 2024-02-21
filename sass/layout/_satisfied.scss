@@ -1,0 +1,45 @@
+.satisfied {
+}
+.satesfied-container {
+}
+.satisfied__title {
+    font-family: Poppins;
+    font-size: 68px;
+    font-weight: 700;
+    line-height: 102px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 90px;
+}
+.satisfied__list {
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+}
+.satisfied__item {
+    background: #F6F6F6;
+    display: flex;
+    column-gap: 7.5rem;
+    padding: 4.8rem 0 4.8rem 3.6rem;
+}
+.satisfied__text {
+    padding-top: 36px;
+    padding-bottom: 62px;
+}
+.satisfied__text__title {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.satisfied__text__desc {
+    width: 100%;
+    max-width: 638px;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+}
